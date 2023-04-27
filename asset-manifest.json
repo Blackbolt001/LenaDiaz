@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LenaDiazBooks/static/css/main.b0bf2094.css",
+    "main.js": "/LenaDiazBooks/static/js/main.fc3731c1.js",
+    "index.html": "/LenaDiazBooks/index.html",
+    "main.b0bf2094.css.map": "/LenaDiazBooks/static/css/main.b0bf2094.css.map",
+    "main.fc3731c1.js.map": "/LenaDiazBooks/static/js/main.fc3731c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0bf2094.css",
+    "static/js/main.fc3731c1.js"
+  ]
+}
