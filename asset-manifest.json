@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/LenaDiazBooks/static/css/main.b0bf2094.css",
-    "main.js": "/LenaDiazBooks/static/js/main.fc3731c1.js",
+    "main.css": "/LenaDiazBooks/static/css/main.e6c13ad2.css",
+    "main.js": "/LenaDiazBooks/static/js/main.257a3f0f.js",
+    "static/media/fall-23881.mp4": "/LenaDiazBooks/static/media/fall-23881.f01592003c13bbd6f87d.mp4",
     "index.html": "/LenaDiazBooks/index.html",
-    "main.b0bf2094.css.map": "/LenaDiazBooks/static/css/main.b0bf2094.css.map",
-    "main.fc3731c1.js.map": "/LenaDiazBooks/static/js/main.fc3731c1.js.map"
+    "main.e6c13ad2.css.map": "/LenaDiazBooks/static/css/main.e6c13ad2.css.map",
+    "main.257a3f0f.js.map": "/LenaDiazBooks/static/js/main.257a3f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0bf2094.css",
-    "static/js/main.fc3731c1.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.257a3f0f.js"
   ]
 }
