@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LenaDiazBooks/static/css/main.5437b4da.css",
+    "main.js": "/LenaDiazBooks/static/js/main.43e6c9e3.js",
+    "static/media/moon.png": "/LenaDiazBooks/static/media/moon.0de0634c8bb12f8dafdd.png",
+    "static/media/purple.jpg": "/LenaDiazBooks/static/media/purple.775f0b8518c69de22e7b.jpg",
+    "index.html": "/LenaDiazBooks/index.html",
+    "main.5437b4da.css.map": "/LenaDiazBooks/static/css/main.5437b4da.css.map",
+    "main.43e6c9e3.js.map": "/LenaDiazBooks/static/js/main.43e6c9e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5437b4da.css",
+    "static/js/main.43e6c9e3.js"
+  ]
+}
