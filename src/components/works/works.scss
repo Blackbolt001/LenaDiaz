@@ -1,5 +1,8 @@
+@import "../../global.scss";
+
+
 .works {
-    background-color: rgb(238, 189, 144) ;
+    background-image:$mainBackground ;
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -9,6 +12,9 @@
         height: 50px;
         position: absolute;
         cursor: pointer;
+        border-radius: 50%;
+        opacity: .5;
+        background-color: $mainColor;
 
         &.left{
             left: 100px;
@@ -35,7 +41,7 @@
         .item {
             width: 700px;
             height: 100%;
-            background-color: white;
+            background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Dark-Forest-HD-Wallpaper-Free-download.jpg");
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -50,10 +56,10 @@
 
             .leftContainer{
                 width: 90%;
-                height: 70%;
+                height: 80%;
                 display: flex;
+                justify-content:space-between;
                 flex-direction: column;
-                justify-content: space-between;
 
                 .imgContainer{
                     width: 40px;
@@ -70,9 +76,12 @@
                 }
                 h2{
                     font-size: 20px;
+                    color:white;
                 }
                 p{
-                    font-size: 13px;
+                    font-size: 12px;
+                    height: 80px;
+                    color:$mainColor;
                 }
                 span{
                     font-size: 12px;
@@ -94,7 +103,7 @@
             img{
                 width: 350px;
                 height: 400px;
-                float: right;
+                border-radius: 20%;
             }
         }
         }

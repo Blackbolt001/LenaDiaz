@@ -36,6 +36,12 @@ export const featuredBooks = [
           img:
             "https://harpercollins-millsandboon-au.imgix.net/covers/9781867250555.jpg?auto=format&w=298&blend=https%3A%2F%2Fsupadu-imgix.s3.amazonaws.com%2Fharpercollins-millsandboon-au%2FEBOOK.png&blend-mode=normal&blend-size=inherit&blend-y=0",
         },
+        {
+          id: 6,
+          title: "Serial Slayer Cold Case",
+          img:
+            "https://harpercollins-millsandboon-au.imgix.net/covers/9781867250555.jpg?auto=format&w=298&blend=https%3A%2F%2Fsupadu-imgix.s3.amazonaws.com%2Fharpercollins-millsandboon-au%2FEBOOK.png&blend-mode=normal&blend-size=inherit&blend-y=0",
+        },
       ];
       
       export const coldBooks = [

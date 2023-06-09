@@ -3,10 +3,12 @@
 .books{
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     background-image:$mainBackground;
     color:$mainColor;
+    overflow-x: hidden;
 
     h1{
     font-size: 50px;
@@ -20,6 +22,7 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
     li{
    font-size:14px;

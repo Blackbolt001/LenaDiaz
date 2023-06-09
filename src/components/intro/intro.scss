@@ -2,6 +2,7 @@
 
 
 .intro {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Dark-Forest-HD-Wallpaper-Free-download.jpg");
     background-color: rgba(232, 197, 245, 0.877);
     display: flex;
 
@@ -19,13 +20,14 @@
         .imageContainer{
             width: 700px;
             height: 700px;
-            background-color: rgb(207, 175, 238);
+            background-color:transparent;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             float: right;
             object-fit: cover;
+            opacity: .7;
 
             @include mobile {
                 align-items: flex-start;
@@ -62,18 +64,24 @@
 
             h1{
                 font-size: 60px;
+                font-weight: 800;
+                font-style: italic;
                 margin: 10px 0;
-                color: purple;
+                color: rgb(252, 251, 253);
 
                 @include mobile{
                     font-size: 40px;
                 }
             }
             h2{
-                font-size: 35px;
+                font-size: 30px;
+                color:$mainColor;
+                opacity: .7;
             }
             h3{
                 font-size: 30px;
+                color:$mainColor;
+                opacity: .6;
 
                 @include mobile{
                     font-size: 20px;
@@ -81,7 +89,7 @@
 
                 span{
                     font-size: inherit;
-                    color:rgb(154, 75, 206);
+                    color:rgb(247, 88, 88);
                 }
                 .ityped-cursor{
                     animation: blink 1s infinite;
@@ -106,8 +114,14 @@
             }
             
             img{
-                width: 30px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: rgb(109, 245, 250);
                 animation: arrowBLink 2s infinite;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: .5;
             }
             @keyframes arrowBLink {
                 100%{
